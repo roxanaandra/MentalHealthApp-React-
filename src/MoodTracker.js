@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 const MoodTracker = () => {
+    const [mood, setMood] = useState('');
     const [message, setMessage] = useState('');
     const [showButtons, setShowButtons] = useState(true);
     const moodMessages = {
@@ -66,7 +67,7 @@ const MoodTracker = () => {
                 displayMessage(appData.mood.state);
             }
         }
-    }, [displayMessage]);
+    }, []);
 
     const handleClickMood = (newMood) => {
         setMood(newMood);
