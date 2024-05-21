@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './App.css';
-import background from './images/background.png'; // Make sure the path is correct
+import background from './images/background.png'; 
 import Campaing from './Campaing';
 import girlImage from './images/girl.jpg';
 import { useNavigate } from 'react-router-dom';
@@ -74,7 +74,7 @@ const ProjectTest = () => {
 
            <div className='flex items-center justify-center flex-col lx:flex-row  gap-8 p-5 bg-white shadow-lg rounded-lg max-w-4xl mx-auto'>
                     <div className='w-full lg:w-1/2'>
-                        <img className='h-auto lx:w-96 w-auto rounded-lg shadow-md' src={imageNews} alt="News" />
+                        <img className='h-auto lx:w-96 w-auto rounded-lg shadow-md' src={imageNews}  />
                     </div>
                     <div className='w-full lg:w-1/2'>
                         <h2 className='text-2xl font-semibold mb-2'>Media</h2>
@@ -95,7 +95,7 @@ const ProjectTest = () => {
                         </div>
 
                         <div className='md:w-1/2 flex justify-center p-4'>
-                            <img className='h-auto w-auto' src={imageQuiz} alt="Quiz" />
+                            <img className='h-auto w-auto' src={imageQuiz}  />
 
                         </div>
                     </div>

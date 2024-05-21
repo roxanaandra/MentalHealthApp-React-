@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import JournalDetails from './JournalDetails'; 
 import moment from 'moment'; 
-import { FaceIcon, ImageIcon, SunIcon } from '@radix-ui/react-icons';
+
 
 
 const JournalEntry = () => {

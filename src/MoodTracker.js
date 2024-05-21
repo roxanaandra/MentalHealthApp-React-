@@ -67,7 +67,7 @@ const MoodTracker = () => {
                 displayMessage(appData.mood.state);
             }
         }
-    }, []);
+    }, [displayMessage]);
 
     const handleClickMood = (newMood) => {
         setMood(newMood);
